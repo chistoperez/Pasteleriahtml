@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastelería</title>
+</head>
+
+<style>
+  .capa {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+
+  .sabor {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+
+<body>
+  <header>
+    <h1>Pastelería chisto-cake<br><img src="https://i.ibb.co/4WG8sjQ/chistocake.png" alt="logo." width="350px"
+        height="350px"></h1>
+
+    <h2>Diseña tu pastel <img
+        src="https://images.vexels.com/media/users/3/134783/isolated/preview/a3fee4ad85569456d4927a70576ffb5f-pastel-de-rebanada-de-pastel.png"
+        alt="logo." width="50px" height="50px"></h2>
+
+  </header>
+
+  <fieldset>
+    <legend>Escoge el tamaño de tu pastel</legend>
+    <label for="20p"><input id="20p" type="radio" name="tamano" value="20p" checked> 20 Porciones (pastel de 1
+      piso)</label><img src="https://www.designyourcakes.com/img/section-prices/step1/size20.png" alt="20 porciones."
+      class=" sabor">$ 1,200<br>
+
+    <label for="30p"><input id="30p" type="radio" name="tamano" value="30p"> 30 Porciones (pastel de 1 piso)</label><img
+      src="https://www.designyourcakes.com/img/section-prices/step1/size30.png" alt="30 porciones." class=" sabor">$
+    1,500<br>
+
+    <label for="40p"><input id="40p" type="radio" name="tamano" value="40p"> 40 Porciones (pastel de 2
+      pisos)</label><img src="https://www.designyourcakes.com/img/section-prices/step1/size40.png" alt="40 porciones."
+      class=" sabor">$ 2,000<br>
+
+    <label for="50p"><input id="50p" type="radio" name="tamano" value="50p"> 50 Porciones (pastel de 3
+      pisos)</label><img src="https://www.designyourcakes.com/img/section-prices/step1/size50.png" alt="50 porciones."
+      class=" sabor">$ 2,500<br>
+
+    <label for="80p"><input id="80p" type="radio" name="tamano" value="80p"> 80 Porciones (pastel de 4
+      pisos)</label><img src="https://www.designyourcakes.com/img/section-prices/step1/size80.png" alt="80 porciones."
+      class=" sabor">$ 4,000
+  </fieldset><br>
+
+  <fieldset>
+    <legend>Selecciona el sabor de la masa</legend>
+
+
+
+    <label for="vainilla"><input id="vainilla" type="checkbox" name="sabor" value="vainilla">
+      Vainilla </label>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="vainilla" class=" capa">
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-vainilla.png" alt="vainilla"
+      class=" sabor">
+    <br>
+
+
+    <label for="chocolate"><input id="chocolate" type="checkbox" name="sabor" value="chocolate"> Chocolate</label>
+
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="chocolate" class=" capa">
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-chocolate.png" alt="chocolate"
+      class=" sabor">+ $50
+    <br>
+
+    <label for="zanahoria"><input id="zanahoria" type="checkbox" name="sabor" value="zanahoria"> Zanahoria </label><img
+      src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="zanahoria" class='capa'>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-zanahoria.png" alt="zanahoria"
+      class='sabor'>+ $50<br>
+
+    <label for="naranja"><input id="naranja" type="checkbox" name="sabor" value="naranja"> Naranja </label><img
+      src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="naranja" class='capa'>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-naranja.png" alt="naranja" class='sabor'>+
+    $50<br>
+
+    <label for="coco"><input id="coco" type="checkbox" name="sabor" value="coco"> Coco </label><img
+      src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="coco" class='capa'>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-coco.png" alt="coco" class='sabor'>+
+    $50<br>
+  </fieldset><br>
+
+  <fieldset>
+    <legend>Cantidad de rellenos</legend>
+
+    <label for="1relleno"><input id="1relleno" type="radio" name="relleno" value="1relleno" checked> 1
+      Relleno </label>
+
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="vainilla" class='capa'>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-vainilla.png" alt="vainilla" class='capa'>
+    <img src="https://www.designyourcakes.com/img/section-prices/step3/filling-1.png" alt="1rellenos" class='sabor'>
+
+    <select id="relleno1" name="relleno1">
+      <option value="" selected disabled hidden>Primer sabor de relleno</option>
+      <option value="Cajeta">Cajeta</option>
+      <option value="Nutella">Nutella</option>
+      <option value="CookiesandCream">Cookies and Cream</option>
+      <option value="CremadeFresa">Crema de Fresa</option>
+      <option value="CremadeLimón">Crema de Limón</option>
+    </select>
+    <br>
+
+    <label for="2rellenos"><input id="2rellenos" type="radio" name="relleno" value="2rellenos"> 2 Rellenos
+    </label>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="vainilla" class="capa">
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-vainilla.png" alt="vainilla" class="capa">
+    <img src="https://www.designyourcakes.com/img/section-prices/step3/filling-2.png" alt="1rellenos" class='sabor'>
+    <select id="relleno2" name="relleno2">
+      <option value="" selected disabled hidden>Segundo sabor de relleno</option>
+      <option value="Cajeta">Cajeta</option>
+      <option value="Nutella">Nutella</option>
+      <option value="CookiesandCream">Cookies and Cream</option>
+      <option value="CremadeFresa">Crema de Fresa</option>
+      <option value="CremadeLimón">Crema de Limón</option>
+    </select> + $100<br>
+    <br>
+
+
+    <label for="3rellenos"><input id="3rellenos" type="radio" name="relleno" value="3rellenos"> 3 Rellenos </label>
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/capa_general.png" alt="vainilla" class="capa">
+    <img src="https://www.designyourcakes.com/img/section-prices/step2/dough-vainilla.png" alt="vainilla" class="capa">
+    <img src="https://www.designyourcakes.com/img/section-prices/step3/filling-3.png" alt="1rellenos" class='sabor'>
+    <select id="relleno3" name="relleno3">
+      <option value="" selected disabled hidden>Tercer sabor de relleno</option>
+      <option value="Cajeta">Cajeta</option>
+      <option value="Nutella">Nutella</option>
+      <option value="CookiesandCream">Cookies and Cream</option>
+      <option value="CremadeFresa">Crema de Fresa</option>
+      <option value="CremadeLimón">Crema de Limón</option>
+    </select> + $200<br>
+  </fieldset><br>
+
+  <fieldset>
+    <legend>Favor de ingresar sus datos</legend>
+    <label for="nombres">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre">
+    <br><br>
+    <label for="correo1">Correo electrónico</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="tel1">Número Telefónico</label><br>
+    <input type="number" id="tel1" name="tel1" maxlength="10"><br><br>
+
+    <label for="Descripción">Favor de poner una breve descripción de su pastel y nos comunicaremos con usted</label><br>
+    <textarea name="Desc" rows="5"></textarea><br>
+  </fieldset><br>
+</body>
+
+<footer>Calle 23 #248 por 50 y 52 Colonia Centro, Teléfono 9993232654. Horarios: Lunes a Viernes de 07:00 a 19:00 horas,
+  Sábados y Domingos de 09:00 a 13:00</footer>
+
+</html>
